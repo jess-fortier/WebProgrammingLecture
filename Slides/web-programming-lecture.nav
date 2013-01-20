@@ -1,0 +1,55 @@
+\beamer@endinputifotherversion {3.26pt}
+\headcommand {\sectionentry {1}{\scshape Introduction}{1}{\scshape Introduction}{0}}
+\headcommand {\beamer@sectionpages {1}{0}}
+\headcommand {\beamer@subsectionpages {1}{0}}
+\headcommand {\slideentry {1}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{The Internet}}\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {1}{1}{1}{2/5}{The Internet}{0}}
+\headcommand {\beamer@framepages {2}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{HTML \& CSS}}\headcommand {\beamer@subsectionpages {2}{5}}
+\headcommand {\slideentry {1}{2}{1}{6/10}{HTML \& CSS}{0}}
+\headcommand {\beamer@framepages {6}{10}}
+\headcommand {\slideentry {1}{2}{2}{11/11}{HTML \& CSS}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\sectionentry {2}{\scshape Web Programming}{12}{\scshape Web Programming}{0}}
+\headcommand {\beamer@sectionpages {1}{11}}
+\headcommand {\beamer@subsectionpages {6}{11}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{12}{Web Data Flow}}\headcommand {\beamer@subsectionpages {12}{11}}
+\headcommand {\slideentry {2}{1}{1}{12/15}{Web Data Flow}{0}}
+\headcommand {\beamer@framepages {12}{15}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{16}{Common Technologies}}\headcommand {\beamer@subsectionpages {12}{15}}
+\headcommand {\slideentry {2}{2}{1}{16/17}{Common Technologies}{0}}
+\headcommand {\beamer@framepages {16}{17}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{1}{18}{PHP}}
+\headcommand {\slideentry {2}{2}{2}{18/18}{Common Technologies}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{2}{19}{Javascript}}
+\headcommand {\slideentry {2}{2}{3}{19/19}{Common Technologies}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\sectionentry {3}{Getting Started}{20}{Getting Started}{0}}
+\headcommand {\beamer@sectionpages {12}{19}}
+\headcommand {\beamer@subsectionpages {16}{19}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{20}{Web Programming Tools}}\headcommand {\beamer@subsectionpages {20}{19}}
+\headcommand {\slideentry {3}{1}{1}{20/20}{Web Programming Tools}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{21}{A Basic Example}}\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\slideentry {3}{2}{1}{21/25}{A Basic Example}{0}}
+\headcommand {\beamer@framepages {21}{25}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{26}{Adding Javascript}}\headcommand {\beamer@subsectionpages {21}{25}}
+\headcommand {\slideentry {3}{3}{1}{26/26}{Adding Javascript}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\sectionentry {4}{\scshape Closing Remarks}{27}{\scshape Closing Remarks}{0}}
+\headcommand {\beamer@sectionpages {20}{26}}
+\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{27}{End Notes}}\headcommand {\beamer@subsectionpages {27}{26}}
+\headcommand {\sectionentry {5}{Notes}{27}{Notes}{0}}
+\headcommand {\beamer@sectionpages {27}{26}}
+\headcommand {\beamer@subsectionpages {27}{26}}
+\headcommand {\slideentry {5}{0}{1}{27/27}{End Notes}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\beamer@partpages {1}{27}}
+\headcommand {\beamer@subsectionpages {27}{27}}
+\headcommand {\beamer@sectionpages {27}{27}}
+\headcommand {\beamer@documentpages {27}}
+\headcommand {\def \inserttotalframenumber {12}}

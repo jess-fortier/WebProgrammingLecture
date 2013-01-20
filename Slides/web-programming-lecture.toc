@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.26pt}
+\beamer@sectionintoc {1}{\scshape Introduction}{1}{0}{1}
+\beamer@subsectionintoc {1}{1}{The Internet}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{HTML \& CSS}{6}{0}{1}
+\beamer@sectionintoc {2}{\scshape Web Programming}{12}{0}{2}
+\beamer@subsectionintoc {2}{1}{Web Data Flow}{12}{0}{2}
+\beamer@subsectionintoc {2}{2}{Common Technologies}{16}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{1}{PHP}{18}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{2}{Javascript}{19}{0}{2}
+\beamer@sectionintoc {3}{Getting Started}{20}{0}{3}
+\beamer@subsectionintoc {3}{1}{Web Programming Tools}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{A Basic Example}{21}{0}{3}
+\beamer@subsectionintoc {3}{3}{Adding Javascript}{26}{0}{3}
+\beamer@sectionintoc {4}{\scshape Closing Remarks}{27}{0}{4}
+\beamer@subsectionintoc {4}{1}{End Notes}{27}{0}{4}
