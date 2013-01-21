@@ -1,13 +1,32 @@
 \frametitle{\subsecname }
+\vspace{-10pt}
+\begin{columns}
+\column{1\linewidth}
 \begin{semiverbatim}
-<?php
-    \$myBasicArray =
-            array("Tom","Jerry","Jack","Sally");
-
-    for(\$i = 0; \$i < sizeof(\$myBasicArray); \$i++)\{
-        \only<1-2>{print \$myBasicArray[\$i];}\only<3-4>{print \$myBasicArray[\$i]\alert{+"\\n"};}\only<5->{print \$myBasicArray[\$i]\alert{+"<br />"};}
-    \}
-?>
+{\scriptsize
+<html>
+    <head><title>Javascript Demo</title>
+    <script>\textcolor{red}{
+        function addEmployee()\{
+            var name = document.getElementById(\alert{"employee-name"}).value;
+            var job = document.getElementById(\alert{"job-title"}).value;
+            var row = "<tr><td>"+name+"</td><td>"+job+"</td></tr>";
+            document.getElementById(\alert{"employees"}).innerHTML += row;
+        \}}
+    </script> </head>
+    <body>
+        <form \alert{name="new-employee"}>
+            Name: <input type="text" \alert{id="employee-name"}><br />
+            Title: <input type="text" \alert{id="job-title"}><br />
+            <input type='button' \textcolor{red}{onclick='addEmployee()'} value='Submit Employee'/>
+        </form>
+        <table>
+            <thead><tr><td>Name</td><td>Job Title</td></tr></thead>
+            <tbody \alert{id="employees"}></tbody>
+        </table>
+    </body>
+</html>
+}
 \end{semiverbatim}
-
-\visible<2,4>{Result: }\only<2>{Names appear on the same line without spaces}\only<4>{Each name on its own line in source, but not on the page}
+\column{.1\linewidth}
+\end{columns}

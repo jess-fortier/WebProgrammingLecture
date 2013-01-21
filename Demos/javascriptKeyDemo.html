@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Javascript Keyboard Input Demo</title>
+		<style type="text/css">
+			#stickman{position:absolute;left:0;top:0;height:100px;}
+		</style>
+		<script type="text/javascript">
+			function Stickman() {
+				this.x = 0;
+				this.y = 0;
+			}
+
+			Stickman.prototype.moveLeft = function() {
+				this.x -= 1;
+				this.draw();
+			};
+
+			Stickman.prototype.moveRight = function() {
+				this.x += 1;
+				this.draw();
+			};
+
+			Stickman.prototype.moveUp = function() {
+				this.y -= 1;
+				this.draw();
+			};
+
+			Stickman.prototype.moveDown = function() {
+				this.y += 1;
+				this.draw();
+			};
+
+			Stickman.prototype.draw = function() {
+				document.getElementById('stickman').style.left = this.x;
+				document.getElementById('stickman').style.top = this.y;
+			}
+
+			var mrStick = new Stickman();
+
+			window.addEventListener('keydown', function(event) {
+				switch (event.keyCode) {
+					case 37: // Left
+					mrStick.moveLeft();
+					break;
+
+					case 38: // Up
+					mrStick.moveUp();
+					break;
+
+					case 39: // Right
+					mrStick.moveRight();
+					break;
+
+					case 40: // Down
+					mrStick.moveDown();
+					break;
+				}
+			}, false);
+		</script>
+	</head>
+	<body>
+		<img src="stickman.png" id="stickman" />
+	</body>
+</html>

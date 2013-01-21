@@ -115,41 +115,45 @@
 
 			\end{itemize}
 			\begin{semiverbatim}
+				{\scriptsize
 				<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 				"http://www.w3.org/TR/html4/strict.dtd">
-				<html>
-				    <head>
-				        <title>Hello, World!</title>
-				    </head>
-				    <body>
-				        Hello, World!
-				    </body>
-				</html>
+					<html>
+					    <head>
+					        <title>Hello, World!</title>
+					    </head>
+					    <body>
+					        Hello, World!
+					    </body>
+					</html>
+				}
 			\end{semiverbatim}
 		\end{frame}
 
 	\subsection{HTML \& CSS}
 		\begin{frame}[fragile]{\subsecname}
 			\begin{semiverbatim}
-				<html>\only<1>{\endnote{Check out \href{http://www.w3schools.com/}{w3schools} to read up on HTML.}}
-				    <head>
-				        <title>\href{http://baconipsum.com/}{Bacon Ipsum}</title>\only<4>{\alert{
-				        <style>
-				            body\{background-color:black;\}
-				            p\{color:white;\}
-				            .centered\{text-align:center;\}
-				        </style>}}\only<5>{\alert{
-				        <link rel="stylesheet" type="text/css"
-				           href="style.css" />}}
-				    </head>			    
-				    <body\only<2>{\alert{ bgcolor="black"}}\only<3>{\alert{ style="background-color:black;"}}>
-				        <p\only<2>{\alert{ color="white" align="center"}}\only<3>{\alert{ style="color:white;
-				           text-align:center;"}}\only<4,5>{\alert{ class="centered"}}>
-				            Bacon ipsum dolor sit amet chuck
-				            sirloin shank andouille. 
-				        </p>
-				    </body>
-				</html>
+				{\scriptsize
+					<html>\only<1>{\endnote{Check out \href{http://www.w3schools.com/}{w3schools} to read up on HTML.}}
+					    <head>
+					        <title>\href{http://baconipsum.com/}{Bacon Ipsum}</title>\only<4>{\alert{
+					        <style>
+					            body\{background-color:black;\}
+					            p\{color:white;\}
+					            .centered\{text-align:center;\}
+					        </style>}}\only<5>{\alert{
+					        <link rel="stylesheet" type="text/css"
+					           href="style.css" />}}
+					    </head>			    
+					    <body\only<2>{\alert{ bgcolor="black"}}\only<3>{\alert{ style="background-color:black;"}}>
+					        <p\only<2>{\alert{ color="white" align="center"}}\only<3>{\alert{ style="color:white;
+					           text-align:center;"}}\only<4,5>{\alert{ class="centered"}}>
+					            Bacon ipsum dolor sit amet chuck
+					            sirloin shank andouille. 
+					        </p>
+					    </body>
+					</html>
+				}
 			\end{semiverbatim}
 			
 		\end{frame}
@@ -200,7 +204,7 @@
 	\subsection{Common Technologies}
 		\begin{frame}{\subsecname}
 			\begin{columns}
-
+				\column{.05\linewidth}
 
 				\column{.4\linewidth}
 					Server-side Scripting
@@ -216,7 +220,8 @@
 						\item JSP
 					\end{itemize}
 
-				\column{.6\linewidth}
+				\column{.05\linewidth}
+				\column{.4\linewidth}
 
 					Client-side Scripting
 					\begin{itemize}
@@ -225,11 +230,12 @@
 								\item \href{http://coffeescript.org/}{CoffeeScript}
 							\end{itemize}
 					\end{itemize}
-					\vspace{10pt}
+					\vspace{5pt}
 					\begin{asideblock}{Fewer Client-Side Options}
 						Adding client-side support for a language requires the browser to bundle an interpreter for that language, or for reliable plugins to be published.
 					\end{asideblock}
-					\vspace{10pt}
+
+				\column{.05\linewidth}
 			\end{columns}
 		\end{frame}
 		\subsubsection{PHP}
@@ -237,12 +243,13 @@
 				PHP: Hypertext Preprocessor\endnote{PHP is a \href{http://en.wikipedia.org/wiki/PHP}{recursive acronym}}
 
 				\begin{semiverbatim}
-					<?php
-					    \$myVar = "Hello World!";
-					    print \$myVar;
-					?>
+					{\scriptsize
+						<?php
+						    \$myVar = 'Hello World!';
+						    echo \$myVar;
+						?>
+					}
 				\end{semiverbatim}
-
 				\begin{itemize}
 					\item Imperative
 					\item Recent class-based Object Oriented Programming support
@@ -338,24 +345,90 @@
 					\end{itemize}
 			\end{columns}
 		\end{frame}
-	\subsection{A Basic Example}
+	\subsection{A Basic PHP Example}
 		\begin{frame}[fragile]{\subsecname}
+
+			\visible<2,4,6>{
+				\begin{asideblock}{}
+					\begin{center}
+						Displayed: \only<2>{Names appear on the same line without spaces}\only<6->{Each name has its own line on the page, but not in source}\only<4>{Each name has its own line in source, but not on the web page}\only<1,3,5>{ }
+					\end{center}
+				\end{asideblock}
+			}
+
 			\begin{semiverbatim}
 				<?php
-				    \$myBasicArray = 
-				            array("Tom","Jerry","Jack","Sally");
+				    \$employeeArray = 
+				            array('Tom','Jerry','Jack','Sally');
 
 				    for(\$i = 0; \$i < sizeof(\$myBasicArray); \$i++)\{
-				        \only<1-2>{print \$myBasicArray[\$i];}\only<3-4>{print \$myBasicArray[\$i]\alert{+"\\n"};}\only<5->{print \$myBasicArray[\$i]\alert{+"<br />"};}
+				        \only<1-2>{echo \$myBasicArray[\$i];}\only<3-4>{echo \$myBasicArray[\$i]\alert{ . '\\n'};}\only<5->{echo \$myBasicArray[\$i]\alert{ . '<br />'};}
 				    \}
 				?>
 			\end{semiverbatim}
-
-			\visible<2,4>{Result: }\only<2>{Names appear on the same line without spaces}\only<4>{Each name on its own line in source, but not on the page}
 		\end{frame}
-	\subsection{Adding Javascript}
-		\begin{frame}{\subsecname}
-
+	\subsection{An Embedded PHP Example}
+		\begin{frame}[fragile]{\subsecname}
+			\begin{semiverbatim}
+				{\scriptsize
+					<html>
+					    <head><title>Embedded PHP Demo</title></head>
+					    <body><h1>Employees</h1>
+					        \textcolor{red}{<?php \$associativeEmployeeArray = array(
+					                 'Tom' => 'Web Developer', 
+					                 'Jerry' => 'Project Manager', 
+					                 'Jack' => 'Designer',
+					                 'Sally' => 'Software Engineer'); ?>}					       
+					        <table border="1" cellpadding="3" cellspacing="0">
+					            <thead><tr><td>Name</td>
+					                    <td>Job Title</td></tr></thead>
+					            <tbody>\textcolor{red}{<?php
+					                foreach (\$associativeEmployeeArray as
+					                  \$employee => \$title)\{
+					                    echo "<tr><td>\$employee</td>
+					                            <td>\$title</td></tr>";
+					                \}
+					        	?>}</tbody>
+					        </table>
+					    </body>
+					</html>
+				}
+			\end{semiverbatim}
+		\end{frame}
+	\subsection{A Basic Javascript Example}
+	\subsection{An Embedded Javascript Example}
+		\begin{frame}[fragile]{\subsecname}
+			\vspace{-10pt}
+			\begin{columns}
+				\column{1\linewidth}
+					\begin{semiverbatim}
+					{\scriptsize
+						<html>
+						    <head><title>Javascript Demo</title>
+						    <script>\textcolor{red}{
+						        function addEmployee()\{
+						            var name = document.getElementById(\alert{"employee-name"}).value;
+						            var job = document.getElementById(\alert{"job-title"}).value;
+						            var row = "<tr><td>"+name+"</td><td>"+job+"</td></tr>";
+						            document.getElementById(\alert{"employees"}).innerHTML += row;
+						        \}}
+						    </script> </head>
+						    <body>
+						        <form \alert{name="new-employee"}>
+						            Name: <input type="text" \alert{id="employee-name"}><br />
+						            Title: <input type="text" \alert{id="job-title"}><br />
+						            <input type='button' \textcolor{red}{onclick='addEmployee()'} value='Submit Employee'/>
+						        </form>
+						        <table>
+						            <thead><tr><td>Name</td><td>Job Title</td></tr></thead>
+						            <tbody \alert{id="employees"}></tbody>
+						        </table>
+						    </body>
+						</html>
+					}
+					\end{semiverbatim}
+				\column{.1\linewidth}
+			\end{columns}
 		\end{frame}
 
 
