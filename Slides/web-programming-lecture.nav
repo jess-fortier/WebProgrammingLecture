@@ -27,7 +27,7 @@
 \headcommand {\beamer@subsubsectionentry {0}{2}{2}{2}{19}{Javascript}}
 \headcommand {\slideentry {2}{2}{3}{19/19}{Common Technologies}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\sectionentry {3}{Getting Started}{20}{Getting Started}{0}}
+\headcommand {\sectionentry {3}{\scshape Getting Started}{20}{\scshape Getting Started}{0}}
 \headcommand {\beamer@sectionpages {12}{19}}
 \headcommand {\beamer@subsectionpages {16}{19}}
 \headcommand {\beamer@subsectionentry {0}{3}{1}{20}{Web Programming Tools}}\headcommand {\beamer@subsectionpages {20}{19}}
@@ -48,17 +48,22 @@
 \headcommand {\beamer@subsectionentry {0}{3}{6}{30}{An Animation Example}}\headcommand {\beamer@subsectionpages {29}{29}}
 \headcommand {\slideentry {3}{6}{1}{30/30}{An Animation Example}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\sectionentry {4}{\scshape Closing Remarks}{31}{\scshape Closing Remarks}{0}}
+\headcommand {\sectionentry {4}{\scshape Assignment 2}{31}{\scshape Assignment 2}{0}}
 \headcommand {\beamer@sectionpages {20}{30}}
 \headcommand {\beamer@subsectionpages {30}{30}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{31}{End Notes}}\headcommand {\beamer@subsectionpages {31}{30}}
-\headcommand {\sectionentry {5}{Notes}{31}{Notes}{0}}
-\headcommand {\beamer@sectionpages {31}{30}}
-\headcommand {\beamer@subsectionpages {31}{30}}
-\headcommand {\slideentry {5}{0}{1}{31/31}{End Notes}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{31}{Snake: Requirements}}\headcommand {\beamer@subsectionpages {31}{30}}
+\headcommand {\slideentry {4}{1}{1}{31/31}{Snake: Requirements}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\beamer@partpages {1}{31}}
-\headcommand {\beamer@subsectionpages {31}{31}}
-\headcommand {\beamer@sectionpages {31}{31}}
-\headcommand {\beamer@documentpages {31}}
-\headcommand {\def \inserttotalframenumber {15}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{32}{Snake: Extra Credit Ideas}}\headcommand {\beamer@subsectionpages {31}{31}}
+\headcommand {\slideentry {4}{2}{1}{32/32}{Snake: Extra Credit Ideas}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\sectionentry {5}{Notes}{33}{Notes}{0}}
+\headcommand {\beamer@sectionpages {31}{32}}
+\headcommand {\beamer@subsectionpages {32}{32}}
+\headcommand {\slideentry {5}{0}{2}{33/33}{Snake: Extra Credit Ideas}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@partpages {1}{33}}
+\headcommand {\beamer@subsectionpages {32}{33}}
+\headcommand {\beamer@sectionpages {31}{33}}
+\headcommand {\beamer@documentpages {33}}
+\headcommand {\def \inserttotalframenumber {17}}

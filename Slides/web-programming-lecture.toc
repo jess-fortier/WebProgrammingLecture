@@ -7,12 +7,13 @@
 \beamer@subsectionintoc {2}{2}{Common Technologies}{16}{0}{2}
 \beamer@subsubsectionintoc {2}{2}{1}{PHP}{18}{0}{2}
 \beamer@subsubsectionintoc {2}{2}{2}{Javascript}{19}{0}{2}
-\beamer@sectionintoc {3}{Getting Started}{20}{0}{3}
+\beamer@sectionintoc {3}{\scshape Getting Started}{20}{0}{3}
 \beamer@subsectionintoc {3}{1}{Web Programming Tools}{20}{0}{3}
 \beamer@subsectionintoc {3}{2}{A Basic PHP Example}{21}{0}{3}
 \beamer@subsectionintoc {3}{3}{An Embedded PHP Example}{27}{0}{3}
 \beamer@subsectionintoc {3}{4}{A Javascript Form Example}{28}{0}{3}
 \beamer@subsectionintoc {3}{5}{A Keyboard Input Example}{29}{0}{3}
 \beamer@subsectionintoc {3}{6}{An Animation Example}{30}{0}{3}
-\beamer@sectionintoc {4}{\scshape Closing Remarks}{31}{0}{4}
-\beamer@subsectionintoc {4}{1}{End Notes}{31}{0}{4}
+\beamer@sectionintoc {4}{\scshape Assignment 2}{31}{0}{4}
+\beamer@subsectionintoc {4}{1}{Snake: Requirements}{31}{0}{4}
+\beamer@subsectionintoc {4}{2}{Snake: Extra Credit Ideas}{32}{0}{4}

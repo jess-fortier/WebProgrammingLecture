@@ -290,7 +290,7 @@
 				\end{itemize}
 			\end{frame}
 
-\section{Getting Started}
+\section{\scshape Getting Started}
 	\subsection{Web Programming Tools}
 		\begin{frame}{\subsecname}
 			\begin{itemize}
@@ -501,10 +501,55 @@
 			\end{semiverbatim}
 		\end{frame}
 
-
-\section{\scshape Closing Remarks}
-	\subsection{End Notes}
+\section{\scshape Assignment 2}
+	\subsection{Snake: Requirements}
 		\begin{frame}{\subsecname}
-			\theendnotes
+			\begin{itemize}
+				\item Behavior should be consistent with \href{http://en.wikipedia.org/wiki/Snake_(video_game)}{traditional gameplay}\endnote{\href{http://www.thepcmanwebsite.com/media/flash_snake/flash_snake.shtml}{Play some Snake online} to get the hang of it}
+					\begin{itemize}
+						\item The game animates itself
+						\item The user directs the head of the snake
+						\item Colliding with goals lengthens the snake
+						\item Colliding with walls or the tail ends the game
+					\end{itemize}
+				\item Main game controls should be the keyboard arrow keys
+				\item Minimum game parameters should be set via PHP form:
+					\begin{itemize}
+						\item Board size
+						\item Snake pace
+						\item Number of simultaneous goals
+					\end{itemize}
+				\item Score should be tracked and displayed during play
+				\item An external stylesheet should be present to skin the app
+				\item There should be no javascript errors when the app runs
+			\end{itemize}
 		\end{frame}
+	\subsection{Snake: Extra Credit Ideas}
+		\begin{frame}{\subsecname}
+			\begin{itemize}
+				\item Implement WASD controls
+					\begin{itemize}
+						\item Let single players choose which set to use
+						\item Allow for two concurrent players to compete
+					\end{itemize}
+				\item Provide additional game options accessible through the UI
+					\begin{itemize}
+						\item Game color scheme (snake, goals, background)
+						\item Specialty board selection (e.g. - internal walls)
+					\end{itemize}
+				\item Implement an optional leveling system which might
+					\begin{itemize}
+						\item Also increase speed when goals are consumed
+						\item Change the color scheme when goals are consumed
+						\item Introduce timed bonus rounds where collisions don't count
+					\end{itemize}
+				\item Connect to a database to store high scores
+				\item Validate form elements
+				\item Persist form elements if validation fails
+			\end{itemize}
+		\end{frame}
+
+\begin{frame}{End notes}
+	\theendnotes
+\end{frame}
 \end{document}

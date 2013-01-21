@@ -63,3 +63,16 @@ choose
 the
 former.
 \@endanenote 
+\@doanenote {5}
+macro:->\href
+{http://www.thepcmanwebsite.com/media/flash_snake/flash_snake.shtml}{Play
+some
+Snake
+online}
+to
+get
+the
+hang
+of
+it
+\@endanenote 
