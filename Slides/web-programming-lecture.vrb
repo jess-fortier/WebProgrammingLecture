@@ -1,32 +1,29 @@
 \frametitle{\subsecname }
 \vspace{-10pt}
-\begin{columns}
-\column{1\linewidth}
 \begin{semiverbatim}
 {\scriptsize
-<html>
-    <head><title>Javascript Demo</title>
-    <script>\textcolor{red}{
-        function addEmployee()\{
-            var name = document.getElementById(\alert{"employee-name"}).value;
-            var job = document.getElementById(\alert{"job-title"}).value;
-            var row = "<tr><td>"+name+"</td><td>"+job+"</td></tr>";
-            document.getElementById(\alert{"employees"}).innerHTML += row;
-        \}}
-    </script> </head>
-    <body>
-        <form \alert{name="new-employee"}>
-            Name: <input type="text" \alert{id="employee-name"}><br />
-            Title: <input type="text" \alert{id="job-title"}><br />
-            <input type='button' \textcolor{red}{onclick='addEmployee()'} value='Submit Employee'/>
-        </form>
-        <table>
-            <thead><tr><td>Name</td><td>Job Title</td></tr></thead>
-            <tbody \alert{id="employees"}></tbody>
-        </table>
-    </body>
-</html>
+<script type="text/javascript">\textcolor{red}{
+    function Stickman() \{ this.x = 0; this.y = 0; this.dir = 'R'; \}
+
+    Stickman.prototype.changeDir = function(dir) \{ this.dir = dir; \}
+
+    Stickman.prototype.draw = function() \{
+        document.getElementById(\alert{'stickman'}).style.left = this.x;
+        document.getElementById(\alert{'stickman'}).style.top = this.y;
+    \}
+
+    Stickman.prototype.move = function() \{
+        switch (this.dir) \{
+            case 'L': this.x -= 1; break; \textcolor{black!50}{// Also 'U', 'R', and 'D'}
+        \} this.draw();
+    \} var mrStick = new Stickman();
+
+    window.addEventListener('keydown', function(event) \{
+        switch (event.keyCode) \{
+            case 37: mrStick.changeDir('L'); break; \textcolor{black!50}{// Also 38, 39, and 40}
+    \} \}, false);
+
+    \textbf{setInterval('mrStick.move()', 20);}}
+</script>
 }
 \end{semiverbatim}
-\column{.1\linewidth}
-\end{columns}

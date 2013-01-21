@@ -11,7 +11,8 @@
 \beamer@subsectionintoc {3}{1}{Web Programming Tools}{20}{0}{3}
 \beamer@subsectionintoc {3}{2}{A Basic PHP Example}{21}{0}{3}
 \beamer@subsectionintoc {3}{3}{An Embedded PHP Example}{27}{0}{3}
-\beamer@subsectionintoc {3}{4}{A Basic Javascript Example}{28}{0}{3}
-\beamer@subsectionintoc {3}{5}{An Embedded Javascript Example}{28}{0}{3}
-\beamer@sectionintoc {4}{\scshape Closing Remarks}{29}{0}{4}
-\beamer@subsectionintoc {4}{1}{End Notes}{29}{0}{4}
+\beamer@subsectionintoc {3}{4}{A Javascript Form Example}{28}{0}{3}
+\beamer@subsectionintoc {3}{5}{A Keyboard Input Example}{29}{0}{3}
+\beamer@subsectionintoc {3}{6}{An Animation Example}{30}{0}{3}
+\beamer@sectionintoc {4}{\scshape Closing Remarks}{31}{0}{4}
+\beamer@subsectionintoc {4}{1}{End Notes}{31}{0}{4}

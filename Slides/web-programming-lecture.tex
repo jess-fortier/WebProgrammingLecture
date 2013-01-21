@@ -132,6 +132,13 @@
 
 	\subsection{HTML \& CSS}
 		\begin{frame}[fragile]{\subsecname}
+			\only<2->{
+				\begin{asideblock}{}
+					\begin{center}
+						\only<2>{Attribute-based formatting}\only<3>{In-line styles}\only<4>{Embedded, recycleable styles; separation of content and presentation}\only<5>{External, recycleable styles; separation of content and presentation}
+					\end{center}
+				\end{asideblock}
+			}
 			\begin{semiverbatim}
 				{\scriptsize
 					<html>\only<1>{\endnote{Check out \href{http://www.w3schools.com/}{w3schools} to read up on HTML.}}
@@ -242,20 +249,23 @@
 			\begin{frame}[fragile]{\subsubsecname}
 				PHP: Hypertext Preprocessor\endnote{PHP is a \href{http://en.wikipedia.org/wiki/PHP}{recursive acronym}}
 
-				\begin{semiverbatim}
-					{\scriptsize
-						<?php
-						    \$myVar = 'Hello World!';
-						    echo \$myVar;
-						?>
-					}
-				\end{semiverbatim}
+				\begin{center}\begin{columns}\column{.5\linewidth}
+					\begin{semiverbatim}
+						{\scriptsize
+							<?php
+							    \$myVar = 'Hello World!';
+							    echo \$myVar;
+							?>
+						}
+					\end{semiverbatim}
+				\end{columns}\end{center}
 				\begin{itemize}
 					\item Imperative
-					\item Recent class-based Object Oriented Programming support
+					\item Object Oriented (Class-based)
 					\item Loosely typed
 					\item Embeddable
 					\item \href{http://php.net/manual/en/funcref.php}{Good documentation} of syntax and libraries
+					\item Differentiates between single quotes and double quotes
 				\end{itemize}
 			\end{frame}
 
@@ -265,11 +275,11 @@
 
 				\begin{itemize}
 					\item Imperative
-					\item \href{http://en.wikipedia.org/wiki/Prototype-based_programming}{Prototype-based} OOP
-					\item Functional programming capability
+					\item Object Oriented (\href{http://en.wikipedia.org/wiki/Prototype-based_programming}{Prototype-based})
+					\item Functional
 					\item Loosely typed
 					\item Embeddable
-					\item Can be used server- or client-side
+					\item Server- and client-side
 					\item Many robust libraries for out-of-the-box functionality
 						\begin{itemize}
 							\item \href{http://jquery.com/}{jQuery}
@@ -395,8 +405,7 @@
 				}
 			\end{semiverbatim}
 		\end{frame}
-	\subsection{A Basic Javascript Example}
-	\subsection{An Embedded Javascript Example}
+	\subsection{A Javascript Form Example}
 		\begin{frame}[fragile]{\subsecname}
 			\vspace{-10pt}
 			\begin{columns}
@@ -429,6 +438,67 @@
 					\end{semiverbatim}
 				\column{.1\linewidth}
 			\end{columns}
+		\end{frame}
+	\subsection{A Keyboard Input Example}
+		\begin{frame}[fragile]{\subsecname}
+			\vspace{-10pt}
+			\begin{semiverbatim}
+			{\scriptsize
+				<style type="text/css">
+				    \alert{#stickman\{position:absolute; left:0; top:0; height:100px;}\}
+				</style>
+				<script type="text/javascript">\textcolor{red}{
+				    function Stickman() \{ this.x = 0; this.y = 0; \}
+
+				    Stickman.prototype.moveLeft = function() \{
+				        this.x -= 1; this.draw();
+				    \}; \textcolor{black!50}{// Also moveRight, moveUp, and moveDown}
+
+				    Stickman.prototype.draw = function() \{
+				        document.getElementById(\alert{'stickman'}).style.left = this.x;
+				        document.getElementById(\alert{'stickman'}).style.top = this.y;
+				    \} var mrStick = new Stickman();
+
+				    window.addEventListener('keydown', function(event) \{
+				        switch (event.keyCode) \{
+				            case 37: mrStick.moveLeft(); break; \textcolor{black!50}{// Also 38, 39, 40}
+				    \} \}, false);		}			    
+				</script>
+
+				<body> <img src="stickman.png" \alert{id="stickman"} /> </body>
+			}
+			\end{semiverbatim}
+		\end{frame}
+	\subsection{An Animation Example}
+		\begin{frame}[fragile]{\subsecname}
+			\vspace{-10pt}
+			\begin{semiverbatim}
+			{\scriptsize
+				<script type="text/javascript">\textcolor{red}{
+				    function Stickman() \{ this.x = 0; this.y = 0; this.dir = 'R'; \}
+
+				    Stickman.prototype.changeDir = function(dir) \{ this.dir = dir; \}
+    
+				    Stickman.prototype.draw = function() \{
+				        document.getElementById(\alert{'stickman'}).style.left = this.x;
+				        document.getElementById(\alert{'stickman'}).style.top = this.y;
+				    \}
+    
+				    Stickman.prototype.move = function() \{
+				        switch (this.dir) \{
+				            case 'L': this.x -= 1; break; \textcolor{black!50}{// Also 'U', 'R', and 'D'}
+				        \} this.draw();
+				    \} var mrStick = new Stickman();
+    
+				    window.addEventListener('keydown', function(event) \{
+				        switch (event.keyCode) \{
+				            case 37: mrStick.changeDir('L'); break; \textcolor{black!50}{// Also 38, 39, and 40}
+				    \} \}, false);
+    
+				    \textbf{setInterval('mrStick.move()', 20);}}
+			</script>
+			}
+			\end{semiverbatim}
 		\end{frame}
 
 

@@ -388,6 +388,8 @@ INPUT web-programming-lecture.vrb
 OUTPUT web-programming-lecture.ent
 INPUT web-programming-lecture.vrb
 INPUT web-programming-lecture.vrb
+INPUT c:/texlive/2012/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
+INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT web-programming-lecture.vrb
 INPUT web-programming-lecture.vrb
 INPUT web-programming-lecture.vrb
@@ -395,8 +397,6 @@ INPUT web-programming-lecture.vrb
 INPUT web-programming-lecture.vrb
 INPUT web-programming-lecture.vrb
 INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-INPUT c:/texlive/2012/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
-INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT c:/texlive/2012/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 OUTPUT web-programming-lecture.vrb
@@ -423,6 +423,15 @@ INPUT web-programming-lecture.vrb
 OUTPUT web-programming-lecture.vrb
 INPUT web-programming-lecture.vrb
 INPUT web-programming-lecture.vrb
+OUTPUT web-programming-lecture.vrb
+INPUT web-programming-lecture.vrb
+INPUT web-programming-lecture.vrb
+OUTPUT web-programming-lecture.vrb
+INPUT web-programming-lecture.vrb
+INPUT web-programming-lecture.vrb
+INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/courier/pcrb7t.tfm
+INPUT c:/texlive/2012/texmf-dist/fonts/vf/adobe/courier/pcrb7t.vf
+INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/courier/pcrb8r.tfm
 INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT web-programming-lecture.ent
 INPUT web-programming-lecture.ent
@@ -445,6 +454,7 @@ INPUT c:/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb
+INPUT c:/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb
 INPUT c:/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT c:/texlive/2012/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 INPUT c:/texlive/2012/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb
