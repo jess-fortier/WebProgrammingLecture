@@ -14,13 +14,13 @@
 
     Stickman.prototype.move = function() \{
         switch (this.dir) \{
-            case 'L': this.x -= 1; break; \textcolor{black!50}{// Also 'U', 'R', and 'D'}
+            case 'L': this.x -= 1; break; \textcolor{black!50}{// Also 'U', 'R', 'D'}
         \} this.draw();
     \} var mrStick = new Stickman();
 
     window.addEventListener('keydown', function(event) \{
         switch (event.keyCode) \{
-            case 37: mrStick.changeDir('L'); break; \textcolor{black!50}{// Also 38, 39, and 40}
+            case 37: mrStick.changeDir('L'); break; \textcolor{black!50}{// Also 38, 39, 40}
     \} \}, false);
 
     \textbf{setInterval('mrStick.move()', 20);}}

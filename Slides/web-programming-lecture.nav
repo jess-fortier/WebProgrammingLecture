@@ -51,19 +51,22 @@
 \headcommand {\sectionentry {4}{\scshape Assignment 2}{31}{\scshape Assignment 2}{0}}
 \headcommand {\beamer@sectionpages {20}{30}}
 \headcommand {\beamer@subsectionpages {30}{30}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{31}{Snake: Requirements}}\headcommand {\beamer@subsectionpages {31}{30}}
-\headcommand {\slideentry {4}{1}{1}{31/31}{Snake: Requirements}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{31}{Snake}}\headcommand {\beamer@subsectionpages {31}{30}}
+\headcommand {\slideentry {4}{1}{1}{31/31}{Snake}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\beamer@subsectionentry {0}{4}{2}{32}{Snake: Extra Credit Ideas}}\headcommand {\beamer@subsectionpages {31}{31}}
-\headcommand {\slideentry {4}{2}{1}{32/32}{Snake: Extra Credit Ideas}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{32}{Requirements}}\headcommand {\beamer@subsectionpages {31}{31}}
+\headcommand {\slideentry {4}{2}{1}{32/32}{Requirements}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\sectionentry {5}{Notes}{33}{Notes}{0}}
-\headcommand {\beamer@sectionpages {31}{32}}
-\headcommand {\beamer@subsectionpages {32}{32}}
-\headcommand {\slideentry {5}{0}{2}{33/33}{Snake: Extra Credit Ideas}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{33}{Extra Credit Ideas}}\headcommand {\beamer@subsectionpages {32}{32}}
+\headcommand {\slideentry {4}{3}{1}{33/33}{Extra Credit Ideas}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\beamer@partpages {1}{33}}
-\headcommand {\beamer@subsectionpages {32}{33}}
+\headcommand {\sectionentry {5}{Notes}{34}{Notes}{0}}
 \headcommand {\beamer@sectionpages {31}{33}}
-\headcommand {\beamer@documentpages {33}}
-\headcommand {\def \inserttotalframenumber {17}}
+\headcommand {\beamer@subsectionpages {33}{33}}
+\headcommand {\slideentry {5}{0}{2}{34/34}{Extra Credit Ideas}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\beamer@partpages {1}{34}}
+\headcommand {\beamer@subsectionpages {33}{34}}
+\headcommand {\beamer@sectionpages {31}{34}}
+\headcommand {\beamer@documentpages {34}}
+\headcommand {\def \inserttotalframenumber {18}}

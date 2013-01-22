@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1358771974 "web-programming-lecture.tex" "web-programming-lecture.pdf" "web-programming-lecture" 1358771982
+["pdflatex"] 1358827686 "web-programming-lecture.tex" "web-programming-lecture.pdf" "web-programming-lecture" 1358827695
   "c:/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc" 1358567146 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map" 1358568105 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2012/texmf-dist/fonts/tfm/adobe/courier/pcrb7t.tfm" 1358566668 960 4ab65358b8406f30ef5496c8c096d22b ""
@@ -230,14 +230,15 @@
   "c:/texlive/2012/texmf-var/web2c/pdftex/pdflatex.fmt" 1358575860 3688150 c0fc9dc178cdb09150912eaa8e4362b2 ""
   "c:/texlive/2012/texmf.cnf" 1358575782 492 d3bd24254b50e25cac54121687dfe19b ""
   "c:/texlive/2012/texmf/web2c/texmf.cnf" 1358569518 31299 729e216d9b945005c0d4b079c0500bc9 ""
-  "web-programming-lecture.aux" 1358771982 7967 3c6f70b2422db980e8fb9a680a0f80ab ""
-  "web-programming-lecture.nav" 1358771982 4576 5c7ae0c59f9ace9b6165702bc4e3bbaf ""
-  "web-programming-lecture.out" 1358771982 1032 8e32bc637fd48d3941e31b84d302755e ""
-  "web-programming-lecture.tex" 1358771972 19974 29414d4fc5f377df6787732b0a9ebdfd ""
+  "images/snake1.png" 1358827634 3548 09fb5163bc2da62c7af09c71c3f67614 ""
+  "web-programming-lecture.aux" 1358827695 8242 1c9541e071f4bf0fe2b482e29a36dd5c ""
+  "web-programming-lecture.nav" 1358827695 4745 24a19a16cc2b4c97c6a610bef3ef73c5 ""
+  "web-programming-lecture.out" 1358827695 1074 4a7adc2adef8a0a8f9dfe42369e7ffa0 ""
+  "web-programming-lecture.tex" 1358827685 20127 b9ad3cf294269e432827334445dd43a0 ""
   (generated)
   "web-programming-lecture.log"
-  "web-programming-lecture.toc"
   "web-programming-lecture.vrb"
+  "web-programming-lecture.toc"
   "web-programming-lecture.nav"
   "web-programming-lecture.snm"
   "web-programming-lecture.pdf"

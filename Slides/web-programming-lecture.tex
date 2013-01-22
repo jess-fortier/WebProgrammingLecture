@@ -426,7 +426,8 @@
 						        <form \alert{name="new-employee"}>
 						            Name: <input type="text" \alert{id="employee-name"}><br />
 						            Title: <input type="text" \alert{id="job-title"}><br />
-						            <input type='button' \textcolor{red}{onclick='addEmployee()'} value='Submit Employee'/>
+						            <input type='button' \textcolor{red}{onclick='addEmployee()'}
+						                value='Submit Employee'/>
 						        </form>
 						        <table>
 						            <thead><tr><td>Name</td><td>Job Title</td></tr></thead>
@@ -452,7 +453,7 @@
 
 				    Stickman.prototype.moveLeft = function() \{
 				        this.x -= 1; this.draw();
-				    \}; \textcolor{black!50}{// Also moveRight, moveUp, and moveDown}
+				    \}; \textcolor{black!50}{// Also moveRight, moveUp, moveDown}
 
 				    Stickman.prototype.draw = function() \{
 				        document.getElementById(\alert{'stickman'}).style.left = this.x;
@@ -486,13 +487,13 @@
     
 				    Stickman.prototype.move = function() \{
 				        switch (this.dir) \{
-				            case 'L': this.x -= 1; break; \textcolor{black!50}{// Also 'U', 'R', and 'D'}
+				            case 'L': this.x -= 1; break; \textcolor{black!50}{// Also 'U', 'R', 'D'}
 				        \} this.draw();
 				    \} var mrStick = new Stickman();
     
 				    window.addEventListener('keydown', function(event) \{
 				        switch (event.keyCode) \{
-				            case 37: mrStick.changeDir('L'); break; \textcolor{black!50}{// Also 38, 39, and 40}
+				            case 37: mrStick.changeDir('L'); break; \textcolor{black!50}{// Also 38, 39, 40}
 				    \} \}, false);
     
 				    \textbf{setInterval('mrStick.move()', 20);}}
@@ -502,7 +503,13 @@
 		\end{frame}
 
 \section{\scshape Assignment 2}
-	\subsection{Snake: Requirements}
+	\subsection{Snake}
+		\begin{frame}{\subsecname}
+			\begin{center}
+				\includegraphics[scale=0.9]{./images/snake1.png}
+			\end{center}
+		\end{frame}
+	\subsection{Requirements}
 		\begin{frame}{\subsecname}
 			\begin{itemize}
 				\item Behavior should be consistent with \href{http://en.wikipedia.org/wiki/Snake_(video_game)}{traditional gameplay}\endnote{\href{http://www.thepcmanwebsite.com/media/flash_snake/flash_snake.shtml}{Play some Snake online} to get the hang of it}
@@ -524,7 +531,7 @@
 				\item There should be no javascript errors when the app runs
 			\end{itemize}
 		\end{frame}
-	\subsection{Snake: Extra Credit Ideas}
+	\subsection{Extra Credit Ideas}
 		\begin{frame}{\subsecname}
 			\begin{itemize}
 				\item Implement WASD controls

@@ -15,5 +15,6 @@
 \beamer@subsectionintoc {3}{5}{A Keyboard Input Example}{29}{0}{3}
 \beamer@subsectionintoc {3}{6}{An Animation Example}{30}{0}{3}
 \beamer@sectionintoc {4}{\scshape Assignment 2}{31}{0}{4}
-\beamer@subsectionintoc {4}{1}{Snake: Requirements}{31}{0}{4}
-\beamer@subsectionintoc {4}{2}{Snake: Extra Credit Ideas}{32}{0}{4}
+\beamer@subsectionintoc {4}{1}{Snake}{31}{0}{4}
+\beamer@subsectionintoc {4}{2}{Requirements}{32}{0}{4}
+\beamer@subsectionintoc {4}{3}{Extra Credit Ideas}{33}{0}{4}

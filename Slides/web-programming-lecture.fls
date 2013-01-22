@@ -432,6 +432,9 @@ INPUT web-programming-lecture.vrb
 INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/courier/pcrb7t.tfm
 INPUT c:/texlive/2012/texmf-dist/fonts/vf/adobe/courier/pcrb7t.vf
 INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/courier/pcrb8r.tfm
+INPUT ./images/snake1.png
+INPUT ./images/snake1.png
+INPUT ./images/snake1.png
 INPUT c:/texlive/2012/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT web-programming-lecture.ent
 INPUT web-programming-lecture.ent
